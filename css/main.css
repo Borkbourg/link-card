@@ -1,0 +1,51 @@
+html {
+  box-sizing: border-box;
+  background-color: #f0eee8;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+.link-card {
+  border-style: solid;
+  border-color: #9a816d;
+  background-color: #dcd4cd;
+  display: inline-block;
+  max-width: 20rem;
+  border-width: 3px;
+  padding: 1rem;
+  font-family: Georgia;
+  border-radius: 8px;
+}
+
+h1 {
+  font-family: 'Dosis', sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.learn {
+  background-color: #785439;
+  color: #f0eee8;
+  text-align: center;
+  margin: 0 0 1rem;
+  font-family: 'Dosis', sans-serif;
+  font-weight: bold;
+  border-radius: 8px;
+  padding: .4em .75em .5em;
+}
+
+dd {
+  font-style: italic;
+}
+
+dl {
+  font-size: .875rem;
+}
+
+a {
+  text-decoration: none;
+  color: #512200;
+  margin: 0 0 1rem;
+}
