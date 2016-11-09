@@ -14,13 +14,17 @@ html {
   display: inline-block;
   max-width: 20rem;
   border-width: 3px;
-  padding: 1rem;
+  padding: .4em .75em .5em;
   font-family: Georgia;
   border-radius: 8px;
 }
 
-h1 {
-  font-family: 'Dosis', sans-serif;
+.link-card:hover {
+  background-color: #cabdb2;
+}
+
+h2 {
+  font-family: Dosis, sans-serif;
   font-size: 1.5rem;
   font-weight: bold;
 }
@@ -30,7 +34,7 @@ h1 {
   color: #f0eee8;
   text-align: center;
   margin: 0 0 1rem;
-  font-family: 'Dosis', sans-serif;
+  font-family: Dosis, sans-serif;
   font-weight: bold;
   border-radius: 8px;
   padding: .4em .75em .5em;
@@ -38,10 +42,21 @@ h1 {
 
 dd {
   font-style: italic;
+  float: right;
+  width: 40%;
 }
 
 dl {
   font-size: .875rem;
+  border-top: 2px solid #9a816d;
+  border-bottom: 2px solid #9a816d;
+  margin: 0;
+  border-right: none;
+  border-left: none;
+  overflow: hidden;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  font-size 1.5rem;
 }
 
 a {
