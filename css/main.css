@@ -23,27 +23,41 @@ html {
   background-color: #cabdb2;
 }
 
-h2 {
+.link-card h2 {
   font-family: Dosis, sans-serif;
   font-size: 1.5rem;
   font-weight: bold;
+  margin: 0;
+  padding-top: .4rem;
 }
 
-.learn {
+.btn {
   background-color: #785439;
   color: #f0eee8;
   text-align: center;
-  margin: 0 0 1rem;
+  margin: 1em;
   font-family: Dosis, sans-serif;
   font-weight: bold;
   border-radius: 8px;
   padding: .4em .75em .5em;
+  font-size: 1.125rem;
+  display: inline-block;
+}
+
+div {
+  text-align: center;
 }
 
 dd {
   font-style: italic;
-  float: right;
-  width: 40%;
+  float: left;
+  width: 45%;
+  margin: 0;
+}
+
+dt {
+  float: left;
+  width: 45%;
 }
 
 dl {
@@ -56,11 +70,16 @@ dl {
   overflow: hidden;
   padding-top: 14px;
   padding-bottom: 14px;
-  font-size 1.5rem;
+  line-height: 1.5;
 }
 
 a {
   text-decoration: none;
   color: #512200;
-  margin: 0 0 1rem;
+  margin: 0;
+}
+
+p {
+  line-height: 1.5rem;
+  margin-top: .8rem;
 }
